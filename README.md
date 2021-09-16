@@ -1,4 +1,4 @@
-## 개발 일지 ![노션에서 확인](https://www.notion.so/codekodo/Android-Timer-App-3f44f21aa51c48ec90ff4ec60e90f4a0#3dbc648702604af6b599dbe6cc1023a0)
+## 개발 일지 [(노션에서 확인)](https://www.notion.so/codekodo/Android-Timer-App-3f44f21aa51c48ec90ff4ec60e90f4a0#3dbc648702604af6b599dbe6cc1023a0)
 
 ## activity_main.xml
 
@@ -34,7 +34,7 @@ tickMark는 SeekBar에서 간격을 표시하는 방법? 을 정의하는 속성
 
 역시 .xml을 새롭게 만들어줬다. 일종의 객체를 만든다고 생각하면 된다. 공식 문서가 있어서 가져와봤다.
 
-[](https://developer.android.com/guide/topics/resources/drawable-resource#XmlBitmap)
+[안드로이드 공식문서](https://developer.android.com/guide/topics/resources/drawable-resource#XmlBitmap)
 
 ### 코드
 
