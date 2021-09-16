@@ -4,11 +4,11 @@
 
 우선 Constraint View를 사용해서 분과 초를 표시했다. 이번 프로젝트에서 처음 사용한 것은 `Constraint Chain Style` 과 `BaseLine` 이다. 두 가지를 적용한 이유는 **분과 초를 표시하는 TextView가 붙어있게 구현**하기 위해서였다.  
 
-![Screenshot_1631766493.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c13fee00-0b97-4065-beed-3ac8f59459f2/Screenshot_1631766493.png)
+![Screenshot_1631766493](https://user-images.githubusercontent.com/33795856/133551994-181c854a-7d7a-44f8-8a41-c049d6b0e339.png)
 
-![Screenshot_1631766621.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70f23b85-9702-474d-a930-8683abd3d924/Screenshot_1631766621.png)
+![Screenshot_1631766621](https://user-images.githubusercontent.com/33795856/133551996-7747bb91-9b69-48e3-80f4-726d7f8f5c7d.png)
 
-![Screenshot_1631766921.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6968eda-4487-4917-a04f-6a4253ba2002/Screenshot_1631766921.png)
+![Screenshot_1631766921](https://user-images.githubusercontent.com/33795856/133551998-bf411fe4-a4a4-4c79-8fc6-a21d63096277.png)
 
 첫 번째 사진은 Constraint Chain과 BaseLine을 적용하기 전이다. 분과 초를 표시하는 View 사이에 일정한 간격이 있고 **Constraint를 상, 하, 좌, 우 모두 주었기 때문에 중앙에 위치**하는 것을 볼 수 있다. 두 번째 사진은 Constraint Chain만 적용했을 때다. 분을 표시하는 TextView를 top, bottom으로 constraint를 걸어놔서 그대로 중앙에 위치한다. 이를 좀 더 보기 좋게 표현하고자 top, bottom의 constraint를 없애고 baseline으로 진행했다. 세 번째 사진이 Constraint Chain과 BaseLine의 적용 사진이다.
 
