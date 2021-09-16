@@ -1,3 +1,5 @@
+## 개발 일지 ![노션에서 확인](https://www.notion.so/codekodo/Android-Timer-App-3f44f21aa51c48ec90ff4ec60e90f4a0#3dbc648702604af6b599dbe6cc1023a0)
+
 ## activity_main.xml
 
 ### TextView
