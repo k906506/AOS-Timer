@@ -1,6 +1,19 @@
-## 개발 일지 [(노션에서 확인)](https://www.notion.so/codekodo/Android-Timer-App-3f44f21aa51c48ec90ff4ec60e90f4a0#3dbc648702604af6b599dbe6cc1023a0)
 
-## activity_main.xml
+# 키워드
+
+-   Constraint View
+-   SeekBar
+-   CountDownTimer
+
+# 구현 목록
+
+-   타이머 시각화
+-   타이머 작동, 종료시 소리 알림
+-   상태 관리
+
+# 개발 과정 [(노션에서 확인)](https://www.notion.so/codekodo/Android-Timer-App-3f44f21aa51c48ec90ff4ec60e90f4a0#3dbc648702604af6b599dbe6cc1023a0)
+
+## 1. 기본 UI 설정하기
 
 ### TextView
 
@@ -97,7 +110,7 @@ tickMark는 SeekBar에서 간격을 표시하는 방법? 을 정의하는 속성
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-## MainActivity.kt
+## 2. 기능 구현하기
 
 ### bindView
 
@@ -270,7 +283,7 @@ private fun startCountDown() {
     }
 ```
 
-### 뭔가 이상하다?
+### 상태 관리
 
 이렇게 작성하고 빌드를 하면 좀 특이한 오류가 발생한다. 어플을 실행하고 홈버튼을 눌러서 나가게 되면 백그라운드에서 실행되는데 이 때도 계속 타이머 소리가 발생하는 것을 볼 수 있다. 상태 관리를 하지 않아서 발생하는 문제였다. 백그라운드에서 실행되지 않게 하려면 `onPause` 메소드를 `오버라이딩` 해줘야 한다. 
 
